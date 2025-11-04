@@ -3,28 +3,26 @@
 Verde Reflorestado é um projeto criado para incentivar o cuidado com o meio ambiente, promovendo ações de reflorestamento, educação ecológica e sustentabilidade.
 O site foi desenvolvido com HTML5, CSS3 e JavaScript, utilizando boas práticas de design responsivo e interatividade.
 
----------------------------------
+==========================================================================================
 
 # Estrutura do Projeto
 
-VerdeReflorestado/
+AULAPROGRAMACAOWEB/
 │
-├── index.html         → Página inicial com apresentação da ONG
-├── cadastro.html      → Formulário para novos voluntários
-├── projetos.html      → Galeria de projetos ambientais
-│
-├── css/
-│   └── style.css      → Estilos e sistema de design (cores, fontes e espaçamento)
-│
-├── js/
-│   └── script.js      → Validação e interatividade com JavaScript
-│
-└── img/
-    ├── raizesfuturo.jpg
-    ├── florestaurbana.jpg
-    └── verdesertao.jpg
+  index.html         → Página inicial com apresentação da ONG
+  cadastro.html      → Formulário para novos voluntários
+  projetos.html      → Galeria de projetos ambientais
 
-    ---------------------------------
+  style.css      → Estilos e sistema de design (cores, fontes e espaçamento)
+
+  script.js      → Validação e interatividade com JavaScript
+
+  imagens/
+      raizesfuturo.jpg
+      florestaurban.jpg
+      verdesertao.jpg
+
+==========================================================================================
 
  # Estrutura do Projeto
 
