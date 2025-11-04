@@ -1,92 +1,53 @@
 # Verde Reflorestado
 
-## Sobre o Projeto
-A **Verde Reflorestado** é uma ONG fictícia criada para fins educacionais, com o objetivo de promover o **reflorestamento**, a **preservação ambiental** e a **conscientização ecológica**.  
+Verde Reflorestado é um projeto criado para incentivar o cuidado com o meio ambiente, promovendo ações de reflorestamento, educação ecológica e sustentabilidade.
+O site foi desenvolvido com HTML5, CSS3 e JavaScript, utilizando boas práticas de design responsivo e interatividade.
 
-O projeto simula um site completo para uma ONG ambiental, com páginas de **início**, **cadastro de voluntários** e **projetos**, aplicando práticas modernas de **HTML5**, **CSS3** e **JavaScript**.
+---------------------------------
 
----
+# Estrutura do Projeto
 
-## Objetivos da Atividade
-- Aplicar fundamentos de **HTML5** na criação de estruturas semânticas;
-- Implementar **layouts responsivos** e um **sistema de design** com **CSS3 avançado**;
-- Desenvolver funcionalidades **interativas e dinâmicas** com **JavaScript**;
-- Integrar conceitos de **versionamento, acessibilidade e infraestrutura web**;
-- Simular um **ambiente de desenvolvimento profissional** com documentação técnica.
+VerdeReflorestado/
+│
+├── index.html         → Página inicial com apresentação da ONG
+├── cadastro.html      → Formulário para novos voluntários
+├── projetos.html      → Galeria de projetos ambientais
+│
+├── css/
+│   └── style.css      → Estilos e sistema de design (cores, fontes e espaçamento)
+│
+├── js/
+│   └── script.js      → Validação e interatividade com JavaScript
+│
+└── img/
+    ├── raizesfuturo.jpg
+    ├── florestaurbana.jpg
+    └── verdesertao.jpg
 
----
+    ---------------------------------
 
-## Tecnologias Utilizadas
-| Tecnologia | Função |
-|-------------|---------|
-| **HTML5** | Estrutura semântica e navegação entre páginas |
-| **CSS3** | Design moderno, responsivo e com variáveis customizadas |
-| **JavaScript (ES6)** | Funcionalidades interativas (menu e formulário) |
-| **Markdown (.md)** | Documentação técnica (README) |
+ # Estrutura do Projeto
 
----
+1- Layout responsivo (adapta-se a celular, tablet e desktop)
 
-## Sistema de Design (Design System)
+2- Formulário de cadastro validado via JavaScript
 
-O projeto segue um **sistema de design modular**, garantindo **consistência visual** e **facilidade de manutenção**.
+3- Efeitos visuais e hover nos projetos
 
-### Paleta de Cores
-| Tipo | Variável | Cor |
-|------|-----------|-----|
-| Primária | `--color-primary` | `#00a86b` |
-| Primária Clara | `--color-primary-light` | `#3ddc84` |
-| Primária Escura | `--color-primary-dark` | `#006d43` |
-| Secundária | `--color-secondary` | `#b5e48c` |
-| Acento | `--color-accent` | `#52b788` |
-| Fundo | `--color-bg` | `#f5fdf7` |
-| Branco | `--color-white` | `#ffffff` |
-| Texto Escuro | `--color-text-dark` | `#2f3e46` |
+4- Navegação simples e intuitiva
 
-### Tipografia Hierárquica
-| Tamanho | Variável | Uso |
-|----------|-----------|-----|
-| `--font-size-xl` | Títulos principais (hero, seções) |
-| `--font-size-lg` | Subtítulos |
-| `--font-size-md` | Textos médios (logo, menus) |
-| `--font-size-sm` | Textos padrão |
-| `--font-size-xs` | Legendas e descrições |
+5- Sistema de design com variáveis CSS (cores, tipografia e espaçamento)
 
-### Sistema de Espaçamento Modular
-Base: **8px**  
-Valores utilizados: `8px`, `16px`, `24px`, `32px`, `48px`, `64px`.
+# Sistema de Design
 
-### Breakpoints Responsivos
-| Dispositivo | Largura Máx. | Variável |
-|--------------|---------------|-----------|
-| Extra pequeno (celular) | 480px | `--bp-xs` |
-| Pequeno | 640px | `--bp-sm` |
-| Médio (tablet) | 768px | `--bp-md` |
-| Grande (notebook) | 1024px | `--bp-lg` |
-| Extra grande (desktop) | 1280px | `--bp-xl` |
+O projeto segue um padrão visual baseado em:
 
----
+1- Cores primárias: tons de verde e branco
 
-## Funcionalidades Implementadas
+2- Tipografia: hierarquia com 5 tamanhos diferentes
 
-### Menu Responsivo
-- Exibe um ícone ☰ em telas pequenas;
-- Abre e fecha o menu com clique;
-- Fecha automaticamente ao clicar em um link.
+3- Espaçamento: modular (8px, 16px, 24px, 32px, 48px, 64px)
 
-### Formulário de Cadastro
-- Solicita dados pessoais do voluntário (nome, CPF, nascimento, estado, endereço, etc.);
-- Exibe **mensagem de sucesso animada** ao enviar o formulário;
-- Limpa automaticamente os campos após o envio.
+4- Breakpoints responsivos: 1200px, 992px, 768px, 576px e 400px
 
-### Design Responsivo
-- O site adapta-se automaticamente para **celulares, tablets e desktops**;
-- Mantém legibilidade e harmonia visual em qualquer resolução.
-
----
-
-## Acessibilidade
-- Uso de **tags semânticas** (`<header>`, `<nav>`, `<section>`, `<footer>`);
-- Textos com contraste adequado;
-- Inputs com **labels associadas** e placeholders descritivos;
-- Navegação clara e consistente.
-
+============================================================================================
